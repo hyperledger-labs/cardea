@@ -6,7 +6,7 @@ Cardea is a complete ecosystem for the exchange of privacy-preserving digital cr
 
 This project has begun the process of migration to LFPH. We are beginning community building efforts using the following channels:
 
-## Announcements: 
+<!--- ## Announcements: 
 
 Mark your calendar: The Launch Meeting of the Cardea User Group meeting will take place May 13, 2021, 9am PDT
 
@@ -30,5 +30,32 @@ Dial by your location
 
 Meeting ID:393 366 7495
 
-Find your local number:https://us02web.zoom.us/u/kexKOPG9Mr
+Find your local number:https://us02web.zoom.us/u/kexKOPG9Mr --->
+
+## Get Involved
+
+We are currently looking for contributors of all types! Here are a few ways to get started:
+
+* Join the [LFPH Slack](https://slack.lfph.io) and our channel, #cardea
+* Sign up for our [mailing list](https://lists.lfph.io/g/cardea)
+
+## Contributing to open source
+
+If you haven’t been involved in an open source project before, it can be intimidating to start participating. Here are a few tips to get comfortable: 
+
+*Feel free to lurk*
+
+• Seeing how other community members interact will help you adjust and learn the social norms in the community
+
+*[Read our Code of Conduct](https://github.com/lfph/foundation/blob/main/code-of-conduct.md)*
+
+• We’ve set and enforce high standards of professional practice from everyone you’ll be meeting
+
+*No stupid questions*
+
+• Not sure what someone meant? Need help learning to use a tool? Ask lots of questions and let the community support you.
+
+*Don’t wait for an invitation*
+
+• Our tools and meetings are open by default, so jump in and introduce yourself, ask questions and share ideas
 
