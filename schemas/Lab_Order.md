@@ -1,7 +1,7 @@
 ```
 {
   "schema_name": "Lab_Order",
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "attributes": [
     "mpid",
     "patient_local_id",
@@ -18,7 +18,7 @@
     "patient_email",
     "lab_specimen_collected_date",
     "lab_specimen_type",
-    "test_order_id",
+    "lab_order_id",
     "lab_coding_qualifer",
     "lab_code",
     "lab_description",
