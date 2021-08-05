@@ -132,7 +132,6 @@
 - Description:
 
 ## Field: ordering_facility_id_qualifier
-
 - Category: Ordering Facility
 - Field Type: text
 - Prevalence in US data: 
