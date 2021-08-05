@@ -5,11 +5,11 @@
 - Supersedes: 
 - Start Date: 2021-07-03
 
-Example Schema:
+## Example ARIES Schema:
 ```
 {
   "schema_name": "Vaccination",
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "attributes": [
     "mpid",
     "patient_local_id",
@@ -27,7 +27,7 @@ Example Schema:
     "patient_email",
     "vaccine_record_id",
     "vaccine_administration_facility_id",
-    "vaccine_administration_facility_id_qualifer",
+    "vaccine_administration_facility_id_qualifier",
     "vaccine_administration_facility_name",
     "vaccine_administration_state_province_region",
     "vaccine_administration_postalcode",
@@ -46,7 +46,7 @@ Example Schema:
     "vaccine_disease_target_code_qualifier",
     "vaccine_disease_target_name",
     "vaccine_administration_provider_id",
-    "vaccine_administration_provider_id_qualifer",
+    "vaccine_administration_provider_id_qualifier",
     "vaccine_administration_provider_fullname",
     "vaccine_education_reference_material",
     "certificate_original_issuer",

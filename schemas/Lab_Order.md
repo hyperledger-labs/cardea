@@ -101,7 +101,7 @@
 - Prevalence in US data: always
 - Description: unique id for lab test instance
 
-## Field: lab_coding_qualifer
+## Field: lab_coding_qualifier
 - Category: Result
 - Field Type: LOINC/LOCAL
 - Prevalence in US data: always
@@ -131,7 +131,7 @@
 - Prevalence in US data: 
 - Description:
 
-## Field: ordering_facility_id_qualifer
+## Field: ordering_facility_id_qualifier
 
 - Category: Ordering Facility
 - Field Type: text
@@ -169,12 +169,11 @@
 - Description:
 
 
-
-
+## Example ARIES Schema:
 ```
 {
   "schema_name": "Lab_Order",
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "attributes": [
     "mpid",
     "patient_local_id",
@@ -192,12 +191,12 @@
     "lab_specimen_collected_date",
     "lab_specimen_type",
     "lab_order_id",
-    "lab_coding_qualifer",
+    "lab_coding_qualifier",
     "lab_code",
     "lab_description",
     "lab_performed_by",
     "ordering_facility_id",
-    "ordering_facility_id_qualifer",
+    "ordering_facility_id_qualifier",
     "ordering_facility_name",
     "ordering_facility_state_province_region",
     "ordering_facility_postalcode",
