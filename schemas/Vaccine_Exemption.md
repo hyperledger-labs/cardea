@@ -1,9 +1,17 @@
+# Vaccine Exemption
 
-Example Schema:
+- Authors: [Keela Shatzkin](keela@shatzkinsystems.com) [Mike Ebert](mike@indicio.tech) [Kim Ebert](kim@indicio.tech)
+- Status Note: 
+- Supersedes: 
+- Start Date: 2021-07-03
+
+
+
+## Example ARIES Schema:
 ```
 {
   "schema_name": "Vaccine_Exemption",
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "attributes": [
     "mpid",
     "patient_local_id",
@@ -18,6 +26,7 @@ Example Schema:
     "patient_country",
     "patient_phone",
     "patient_email",
+    "exemption_record_id",
     "exemption_requestor",
     "exemption_requestor_relationship",
     "exemption_issue_date",

@@ -1,3 +1,10 @@
+# Lab Result
+
+- Authors: [Keela Shatzkin](keela@shatzkinsystems.com) [Mike Ebert](mike@indicio.tech) [Kim Ebert](kim@indicio.tech)
+- Status Note: 
+- Supersedes: 
+- Start Date: 2021-07-03
+
 ```
 {
   "schema_name": "Lab_Result",

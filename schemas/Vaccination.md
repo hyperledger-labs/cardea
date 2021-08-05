@@ -1,8 +1,15 @@
+# Vaccination
+
+- Authors: [Keela Shatzkin](keela@shatzkinsystems.com) [Mike Ebert](mike@indicio.tech) [Kim Ebert](kim@indicio.tech)
+- Status Note: 
+- Supersedes: 
+- Start Date: 2021-07-03
+
 Example Schema:
 ```
 {
   "schema_name": "Vaccination",
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "attributes": [
     "mpid",
     "patient_local_id",
@@ -18,6 +25,7 @@ Example Schema:
     "patient_country",
     "patient_phone",
     "patient_email",
+    "vaccine_record_id",
     "vaccine_administration_facility_id",
     "vaccine_administration_facility_id_qualifer",
     "vaccine_administration_facility_name",
