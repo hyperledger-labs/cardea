@@ -149,7 +149,6 @@
 - Prevalence in US data: sometimes
 - Description: free text comment provided by the performing lab
 
-
 ## Field: lab_performed_by
 - Category: Result
 - Field Type: text
