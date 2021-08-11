@@ -233,12 +233,24 @@
 - Prevalence in US data: 
 - Description:
 
+## Field: credential_issue_date
+- Category: Credential
+- Field Type: YYYY-MM-DD
+- Prevalence in US data: 
+- Description:
+
+## Attributes are part of the Credential Protocol see [ARIES RFC 0036](https://github.com/hyperledger/aries-rfcs/tree/main/features/0036-issue-credential)
+
+Some attributes are part of the underlying ARIES Credential Protocol. For example the following values are associated with the credential
+
+- "schema_id": string, identifier of schema
+- "cred_def_id": string, identifier of credential definition, which includes the issuer's DID
 
 ## Example ARIES Schema:
 ```
 {
   "schema_name": "Lab_Result",
-  "schema_version": "1.1",
+  "schema_version": "1.3",
   "attributes": [
     "mpid",
     "patient_local_id",
@@ -277,7 +289,8 @@
     "performing_laboratory_postalcode",
     "performing_laboratory_country",
     "lab_performed_by",
-    "credential_issuer"
+    "credential_issuer",
+    "credential_issue_date"
   ]
 }
 
