@@ -32,7 +32,7 @@
 
 ## Field: patient_date_of_birth
 - Category: Patient
-- Field Type: YYYY-MM-DD
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: always
 - Description: demographics collected during test
 
@@ -105,7 +105,7 @@
 
 ## Field: exemption_issue_date
 - Category: Exemption
-- Field Type: YYYY-MM-DD
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: 
 - Description: date the exemption was issued
 
@@ -207,7 +207,7 @@
 
 ## Field: exemption_expiration_date
 - Category: Exemption
-- Field Type: YYYY-MM-DD
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: 
 - Description: expiration date of the vaccine exemption, if temporary
 
@@ -237,7 +237,7 @@
 
 ## Field: credential_issue_date
 - Category: Credential
-- Field Type: YYYY-MM-DD
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: 
 - Description:
 
@@ -252,7 +252,7 @@ Some attributes are part of the underlying ARIES Credential Protocol. For exampl
 ```
 {
   "schema_name": "Vaccine_Exemption",
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "attributes": [
     "mpid",
     "patient_local_id",

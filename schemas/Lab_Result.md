@@ -31,7 +31,7 @@
 
 ## Field: patient_date_of_birth
 - Category: Patient
-- Field Type: YYYY-MM-DD
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: always
 - Description: demographics collected during test
 
@@ -85,13 +85,13 @@
 
 ## Field: lab_observation_date_time
 - Category: Result
-- Field Type: YYYY-MM-DD HH:MM:SS
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: always
 - Description: Date/Time of lab test result
 
 ## Field: lab_specimen_collected_date
 - Category: Result
-- Field Type: YYYY-MM-DD HH:MM:SS
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: sometimes
 - Description: Date/Time of the lab sample being taken
 
@@ -227,7 +227,7 @@
 - Prevalence in US data: 
 - Description: 
 
-## Field: credential_issuer
+## Field: credential_issuer_name
 - Category: Credential
 - Field Type: text
 - Prevalence in US data: 
@@ -235,7 +235,7 @@
 
 ## Field: credential_issue_date
 - Category: Credential
-- Field Type: YYYY-MM-DD
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: 
 - Description:
 
@@ -250,7 +250,7 @@ Some attributes are part of the underlying ARIES Credential Protocol. For exampl
 ```
 {
   "schema_name": "Lab_Result",
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "attributes": [
     "mpid",
     "patient_local_id",
@@ -289,7 +289,7 @@ Some attributes are part of the underlying ARIES Credential Protocol. For exampl
     "performing_laboratory_postalcode",
     "performing_laboratory_country",
     "lab_performed_by",
-    "credential_issuer",
+    "credential_issuer_name",
     "credential_issue_date"
   ]
 }

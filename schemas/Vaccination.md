@@ -37,7 +37,7 @@
 
 ## Field: patient_date_of_birth
 - Category: Patient
-- Field Type: YYYY-MM-DD
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: always
 - Description: demographics collected during test
 
@@ -133,7 +133,7 @@
 
 ## Field: vaccine_administration_date
 - Category: Vaccination
-- Field Type: YYYY-MM-DD
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: always
 - Description: date of vaccine administration
 
@@ -253,7 +253,7 @@
 
 ## Field: credential_issue_date
 - Category: Credential
-- Field Type: YYYY-MM-DD
+- Field Type: Unix timestamp UTC
 - Prevalence in US data: 
 - Description:
 
@@ -268,7 +268,7 @@ Some attributes are part of the underlying ARIES Credential Protocol. For exampl
 ```
 {
   "schema_name": "Vaccination",
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "attributes": [
     "mpid",
     "patient_local_id",
