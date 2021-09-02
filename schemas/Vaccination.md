@@ -318,5 +318,9 @@ Some attributes are part of the underlying ARIES Credential Protocol. For exampl
 
 ## Network Schema Ids
 
+```
 Indicio Test: RuuJwd3JMffNwZ43DcJKN1:2:Vaccination:1.4
+Indicio Demo: RuuJwd3JMffNwZ43DcJKN1:2:Vaccination:1.4
+Indicio Live: RuuJwd3JMffNwZ43DcJKN1:2:Vaccination:1.4
 Sovrin Staging: RuuJwd3JMffNwZ43DcJKN1:2:Vaccination:1.4 
+```
