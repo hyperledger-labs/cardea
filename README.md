@@ -45,29 +45,34 @@ If you haven’t been involved in an open source project before, it can be intim
 
 *Feel free to lurk*
 
-• Seeing how other community members interact will help you adjust and learn the social norms in the community
+* Seeing how other community members interact will help you adjust and learn the social norms in the community
 
 *[Read our Code of Conduct](https://github.com/lfph/foundation/blob/main/code-of-conduct.md)*
 
-• We’ve set and enforce high standards of professional practice from everyone you’ll be meeting
+* We’ve set and enforce high standards of professional practice from everyone you’ll be meeting
 
 *No stupid questions*
 
-• Not sure what someone meant? Need help learning to use a tool? Ask lots of questions and let the community support you.
+* Not sure what someone meant? Need help learning to use a tool? Ask lots of questions and let the community support you.
 
 *Don’t wait for an invitation*
 
-• Our tools and meetings are open by default, so jump in and introduce yourself, ask questions and share ideas
+* Our tools and meetings are open by default, so jump in and introduce yourself, ask questions and share ideas
 
 ## Testing
 
 You can use the following agents to test your setup, implementation, agent, etc.:
 
-Issuer: https://lab.cardea.indiciotech.io/
+Mobile Holder: https://github.com/thecardeaproject/cardea-mobile-holder/releases/tag/1.1.0
 
-Holder: https://government.cardea.indiciotech.io/ - Note: For the purposes of this test, holder must send a message so the connection status is considered active. If the holder doesn’t send demographics, the user must also edit the demographics before sending.
+Health Issuer: https://lab.cardea.indiciotech.io/
 
-Verifier https://restaurant.cardea.indiciotech.io/
+Travel Issuer: https://government.cardea.indiciotech.io/ 
+* Note: For the purposes of this test, holder must send a message so the connection status is considered active. If the holder doesn’t send demographics, the user must also edit the demographics before sending.
+
+Enterprise Verifier: https://restaurant.cardea.indiciotech.io/
+
+Mobile Verifier: https://github.com/thecardeaproject/cardea-mobile-verifier/releases/tag/1.0.2
 
 ## Workflows
 
