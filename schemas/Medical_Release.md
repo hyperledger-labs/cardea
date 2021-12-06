@@ -1,4 +1,4 @@
-# Trusted Traveler
+# Medical Release
 
 - Authors: [Keela Shatzkin](keela@shatzkinsystems.com) [Mike Ebert](mike@indicio.tech) [Kim Ebert](kim@indicio.tech)
 - Status Note: 
@@ -83,6 +83,12 @@
 - Prevalence in US data: sometimes
 - Description: demographics collected during test
 
+## Field: medical_release_id
+- Category: medical release
+- Field Type: text
+- Prevalence in US data: 
+- Description: GUID used to link the release to a specific health care system patient
+
 ## Field: medical_release_signed_date
 - Category: medical release
 - Field Type: Unix timestamp UTC
@@ -148,7 +154,7 @@ Some attributes are part of the underlying ARIES Credential Protocol. For exampl
 ```
 {
   "schema_name": "Medical_Release",
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "attributes": [
     "mpid",
     "patient_local_id",
@@ -163,6 +169,7 @@ Some attributes are part of the underlying ARIES Credential Protocol. For exampl
     "patient_country",
     "patient_phone",
     "patient_email",
+    "medical_release_id"
     "medical_release_signed_date",
     "medical_release_form_location",
     "medical_release_covered_data",
@@ -179,8 +186,8 @@ Some attributes are part of the underlying ARIES Credential Protocol. For exampl
 ## Network Schema Ids
 
 ```
-Indicio Test: RuuJwd3JMffNwZ43DcJKN1:2:Medical_Release:1.0
-Indicio Demo: RuuJwd3JMffNwZ43DcJKN1:2:Medical_Release:1.0
-Indicio Live: RuuJwd3JMffNwZ43DcJKN1:2:Medical_Release:1.0
-Sovrin Staging: RuuJwd3JMffNwZ43DcJKN1:2:Medical_Release:1.0
+Indicio Test: RuuJwd3JMffNwZ43DcJKN1:2:Medical_Release:1.1
+Indicio Demo: RuuJwd3JMffNwZ43DcJKN1:2:Medical_Release:1.1
+Indicio Live: RuuJwd3JMffNwZ43DcJKN1:2:Medical_Release:1.1
+Sovrin Staging: RuuJwd3JMffNwZ43DcJKN1:2:Medical_Release:1.1
 ```
